@@ -24,6 +24,7 @@ button {
 .logo-dark {
   color: var(--log-stud-col);
 }
+
 :root {
   --subsid-color: #4d5ae5;
   --logo-font: "Raleway", sans-serif;
