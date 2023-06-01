@@ -243,7 +243,7 @@ body {
 
 .ourwork-list {
   display: flex;
-  column-gap: 24px;
+
   text-align: center;
   justify-content: space-between;
 }
