@@ -74,14 +74,23 @@ body {
 .page-header {
   background-color: color #e7e9fc;
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
 }
 
 .page-nav {
   display: flex;
+  column-gap: 76px;
 }
 
 .menu {
   display: flex;
+  column-gap: 40px;
 }
 
 .menu-link {
@@ -99,10 +108,12 @@ body {
 .contacts {
   font-style: normal;
   line-height: 1.5;
+  margin-left: auto;
 }
 
 .page-contact {
   display: flex;
+  column-gap: 36px;
 }
 
 .contact-mt {
@@ -124,7 +135,8 @@ body {
   line-height: 1.5;
   color: var(--backgr-color);
   flex: none;
-
+  padding: 16px 32px;
+  min-width: 169px;
   background: var(--subsid-color);
 }
 
@@ -144,6 +156,7 @@ body {
 }
 
 .designation-title {
+  width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -157,6 +170,10 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--ancillary-color);
+}
+.advantage-list {
+  display: flex;
+  column-gap: 24px;
 }
 
 .title-adv {
@@ -224,6 +241,13 @@ body {
   color: var(--ancillary-color);
 }
 
+.ourwork-list {
+  display: flex;
+  column-gap: 24px;
+  text-align: center;
+  justify-content: space-between;
+}
+
 .employ {
   background-color: var(--log-stud-col);
 }
@@ -239,6 +263,9 @@ body {
 }
 
 .employ-list {
+  display: flex;
+  column-gap: 24px;
+  justify-content: space-between;
   background-color: var(--backgr-color);
 }
 
