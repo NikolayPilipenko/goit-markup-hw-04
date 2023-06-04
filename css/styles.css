@@ -21,6 +21,7 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
+  padding: 0;
 }
 
 img {
@@ -28,11 +29,18 @@ img {
 }
 
 .container {
-  width: 1470px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.section-posit {
+  margin-top: 120px;
+}
+.title-posit {
+  padding-bottom: 72px;
 }
 
 .logo {
@@ -81,6 +89,11 @@ body {
 .page-header-container {
   display: flex;
   align-items: center;
+}
+
+.page-footer-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .page-nav {
@@ -138,6 +151,8 @@ body {
   padding: 16px 32px;
   min-width: 169px;
   background: var(--subsid-color);
+  margin-top: 48px;
+  margin-bottom: 188px;
 }
 
 .order-btn:hover,
@@ -162,6 +177,10 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--backgr-color);
+  text-align: center;
+  padding-top: 188px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .advantage-title {
@@ -174,8 +193,6 @@ body {
 .advantage-list {
   display: flex;
   column-gap: 24px;
-  margin-top: 120px;
-  margin-bottom: 120px;
 }
 
 .title-adv {
@@ -241,18 +258,15 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--ancillary-color);
-  margin-bottom: 72px;
 }
 
 .ourwork-list {
   display: flex;
-
-  text-align: center;
-  justify-content: space-between;
+  column-gap: 24px;
 }
 
 .employ {
-  margin-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--log-stud-col);
 }
 
@@ -265,15 +279,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--ancillary-color);
   padding-top: 120px;
-  margin-bottom: 72px;
 }
 
 .employ-list {
   display: flex;
   column-gap: 24px;
-  justify-content: space-between;
   background-color: var(--backgr-color);
-  margin-bottom: 120px;
 }
 
 .employ-item {
@@ -302,6 +313,8 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: var(--log-stud-col);
+  width: 264px;
+  margin-top: 16px;
 }
 
 /*Portfolio*/
