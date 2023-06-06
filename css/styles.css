@@ -309,6 +309,8 @@ body {
 
   text-align: center;
   letter-spacing: 0.04em;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .guide-btn:hover,
@@ -349,4 +351,7 @@ body {
 }
 .qwer {
   border: 1px outset rgba(46, 47, 66, 0.16);
-border-top: none;
+  border-top: none;
+  margin-top: none;
+  padding-top: 32px;
+}
