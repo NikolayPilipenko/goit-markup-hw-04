@@ -91,6 +91,7 @@ body {
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
+  border: 1px outset rgba(46, 47, 66, 0.08);
 }
 
 .page-header-container {
@@ -322,10 +323,30 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--ancillary-color);
+  padding-left: 16px;
 }
 
 .specification-p {
   letter-spacing: 0.02em;
   color: var(--body-color);
   line-height: 1.5;
+  padding-left: 16px;
 }
+
+.btn-list {
+  display: flex;
+
+  margin: 96px auto 72px auto;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.all-cont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  margin-bottom: 114px;
+}
+.qwer {
+  border: 1px outset rgba(46, 47, 66, 0.16);
+border-top: none;
