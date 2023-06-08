@@ -49,7 +49,13 @@ img {
 .card-txt-posit {
   margin-bottom: 32px;
 }
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
 .logo {
+  display: inline-block;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -77,6 +83,7 @@ img {
   --log-stud-col: #f4f4fd;
   --body-color: #434455;
   --backgr-btn: #404bbf;
+  --fold-btn-color: #e7e9fc;
 }
 
 body {
@@ -96,6 +103,8 @@ body {
 .page-header-container {
   display: flex;
   align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .page-footer-container {
@@ -231,7 +240,7 @@ body {
 .defin-adv {
   font-size: 16px;
   letter-spacing: 0.02em;
-  margin-top: 8px;
+
   line-height: 1.5;
 }
 .ourwork {
@@ -310,6 +319,8 @@ body {
 
 .vault {
   background: var(--dark-bgr);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .vault-txt {
@@ -318,10 +329,14 @@ body {
   line-height: 1.5;
   color: var(--log-stud-col);
   width: 264px;
-  margin-top: 16px;
 }
 
 /*Portfolio*/
+
+.fold {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 
 .guide-btn {
   font-family: "Roboto", sans-serif;
@@ -331,15 +346,16 @@ body {
   line-height: 1.5;
   color: var(--subsid-color);
   background-color: var(--log-stud-col);
-
+  padding: 12px 24px;
   text-align: center;
   letter-spacing: 0.04em;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--fold-btn-color);
   border-radius: 4px;
 }
 
 .guide-btn:hover,
 .guide-btn:focus {
+  border: 1px solid transparent;
   color: var(--backgr-color);
   background-color: var(--backgr-btn);
 }
@@ -362,10 +378,9 @@ body {
 
 .btn-list {
   display: flex;
-
   margin: 96px auto 72px auto;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .all-cont {
@@ -375,8 +390,7 @@ body {
   margin-bottom: 114px;
 }
 .qwer {
-  border: 1px outset rgba(46, 47, 66, 0.16);
-  border-top: none;
-  margin-top: none;
-  padding-top: 32px;
+  border: 1px solid var(--fold-btn-color);
+
+  padding-top: 32px 16px;
 }
