@@ -389,8 +389,12 @@ body {
   gap: 48px 24px;
   margin-bottom: 114px;
 }
+
+.all-cont-posit {
+}
+
 .qwer {
   border: 1px solid var(--fold-btn-color);
-
-  padding-top: 32px 16px;
+  border-top: none;
+  padding: 32px 16px;
 }
