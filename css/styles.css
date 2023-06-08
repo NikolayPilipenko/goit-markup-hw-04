@@ -44,10 +44,9 @@ img {
 }
 .card-title-posit {
   margin-top: 32px;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 .card-txt-posit {
-  margin-top: 4px;
   margin-bottom: 32px;
 }
 .logo {
@@ -113,13 +112,6 @@ body {
 .menu {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .menu-link {
@@ -128,6 +120,8 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: var(--ancillary-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -186,6 +180,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--backgr-color);
   background-color: var(--dark-bgr);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .designation-title {
@@ -196,8 +192,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--backgr-color);
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -293,17 +288,24 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.empl-card {
+  padding: 32px 16px;
+}
+
 .empl {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--ancillary-color);
+  text-align: center;
+  margin-bottom: 8px;
 }
 .empl-prof {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  text-align: center;
 }
 
 .vault {
