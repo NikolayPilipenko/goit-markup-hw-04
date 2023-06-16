@@ -31,7 +31,7 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
- 
+
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -49,10 +49,6 @@ img {
 .card-txt-posit {
   margin-bottom: 32px;
 }
-.visually-hidden {
-  position: fixed;
-  transform: scale(0);
-}
 
 .logo {
   display: inline-block;
@@ -64,6 +60,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--subsid-color);
   margin-right: 76px;
+  margin-bottom: 16px;
 }
 
 .logo-ligh {
