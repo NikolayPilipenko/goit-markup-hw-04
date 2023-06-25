@@ -50,9 +50,6 @@ img {
   overflow: hidden;
 }
 
-.section-posit {
-  /* margin-top: 120px; */
-}
 .title-posit {
   margin-bottom: 72px;
 }
@@ -73,9 +70,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--subsid-color);
-
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .logo-ligh {
@@ -115,6 +109,8 @@ body {
 .page-header-container {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .page-footer-container {
@@ -338,6 +334,7 @@ body {
   line-height: 1.5;
   color: var(--log-stud-col);
   width: 264px;
+  margin-top: 16px;
 }
 
 /*Portfolio*/
