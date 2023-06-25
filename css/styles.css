@@ -51,7 +51,7 @@ img {
 }
 
 .section-posit {
-  margin-top: 120px;
+  /* margin-top: 120px; */
 }
 .title-posit {
   margin-bottom: 72px;
@@ -184,6 +184,8 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 48px;
 }
 
 .order-btn:hover,
@@ -275,8 +277,6 @@ body {
 }
 
 .employ {
-  padding-top: 120px;
-  padding-bottom: 120px;
   background-color: var(--log-stud-col);
 }
 
@@ -295,6 +295,7 @@ body {
   display: flex;
   gap: 24px;
   background-color: var(--log-stud-col);
+  padding-bottom: 120px;
 }
 
 .employ-item {
