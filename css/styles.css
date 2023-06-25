@@ -32,8 +32,7 @@ img {
   width: 1158px;
   margin: 0 auto;
 
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 
 .visually-hidden {
@@ -70,6 +69,10 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--subsid-color);
+  margin-right: 76px;
+}
+.logo-valut {
+  margin-bottom: 16px;
 }
 
 .logo-ligh {
@@ -114,13 +117,10 @@ body {
 }
 
 .page-footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .page-nav {
   display: flex;
-  column-gap: 76px;
   align-items: center;
 }
 
@@ -273,6 +273,7 @@ body {
 
 .employ {
   background-color: var(--log-stud-col);
+  padding: 120px 0;
 }
 
 .employ-title {
@@ -283,14 +284,12 @@ body {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--ancillary-color);
-  padding-top: 120px;
 }
 
 .employ-list {
   display: flex;
   gap: 24px;
   background-color: var(--log-stud-col);
-  padding-bottom: 120px;
 }
 
 .employ-item {
@@ -325,6 +324,7 @@ body {
 
 .vault {
   background: var(--dark-bgr);
+  padding: 100px 0;
 }
 
 .vault-txt {
@@ -333,7 +333,6 @@ body {
   line-height: 1.5;
   color: var(--log-stud-col);
   width: 264px;
-  margin-top: 16px;
 }
 
 /*Portfolio*/
