@@ -36,7 +36,6 @@ img {
   padding-right: 15px;
 }
 
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -44,7 +43,7 @@ img {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -74,8 +73,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--subsid-color);
-  margin-right: 76px;
-  margin-bottom: 16px;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo-ligh {
@@ -115,8 +115,6 @@ body {
 .page-header-container {
   display: flex;
   align-items: center;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 .page-footer-container {
@@ -331,8 +329,6 @@ body {
 
 .vault {
   background: var(--dark-bgr);
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .vault-txt {
