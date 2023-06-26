@@ -126,7 +126,7 @@ body {
 }
 
 .menu-item {
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .menu-link {
@@ -137,6 +137,7 @@ body {
   color: var(--ancillary-color);
   padding: 0 15px;
   display: block;
+  padding: 24px 0;
 }
 .menu-link:hover,
 .menu-link:focus {
