@@ -110,8 +110,6 @@ body {
 .page-header-container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .page-footer-container {
@@ -120,6 +118,7 @@ body {
 .page-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .menu {
@@ -133,8 +132,8 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: var(--ancillary-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 0 15px;
+  display: block;
 }
 .menu-link:hover,
 .menu-link:focus {
