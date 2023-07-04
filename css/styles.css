@@ -53,8 +53,6 @@ img {
 .card-title-posit {
   margin-bottom: 8px;
 }
-.card-txt-posit {
-}
 
 .logo {
   display: inline-block;
@@ -110,9 +108,6 @@ body {
   align-items: center;
 }
 
-.page-footer-container {
-}
-
 .page-nav {
   display: flex;
   align-items: center;
@@ -121,10 +116,6 @@ body {
 .menu {
   display: flex;
   gap: 40px;
-}
-
-.menu-item {
-  /* padding: 24px 0; */
 }
 
 .menu-link {
@@ -228,10 +219,12 @@ body {
   margin-right: auto;
   text-align: center;
 }
+
 .advantage-list {
   display: flex;
   gap: 24px;
 }
+
 .adv-qual {
   justify-content: left;
   width: calc((100% - 72px) / 4);
