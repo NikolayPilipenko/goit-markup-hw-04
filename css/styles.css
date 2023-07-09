@@ -184,9 +184,17 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--backgr-color);
-  background-color: var(--dark-bgr);
+  background-color: var(--ancillary-color);
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .designation-title {
@@ -307,6 +315,16 @@ body {
   text-align: center;
 }
 
+.custom-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: var(--ancillary-color);
+}
+
 .vault {
   background: var(--dark-bgr);
   padding: 100px 0;
@@ -390,6 +408,26 @@ body {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+}
+
+.adv-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.frame-adv-icon {
+  display: flex;
+  background-color: #f4f4fd;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  margin-bottom: 8px;
+}
+
+.empl-icon {
+  display: flex;
+  gap: 24px;
+  padding-top: 8px;
 }
 
 /* ==========================================
