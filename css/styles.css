@@ -337,6 +337,11 @@ body {
   padding-top: 8px;
 }
 
+.empl-cell:hover,
+.empl-cell:focus {
+  fill: chartreuse;
+}
+
 .custom-title {
   font-weight: 700;
   font-size: 36px;
@@ -358,6 +363,7 @@ body {
 }
 
 .list-custom-cell {
+  /* додайте опис для .list-custom-cell */
 }
 
 .custom-icon {
@@ -374,7 +380,6 @@ body {
   fill: var(--backgr-btn);
   border: 1px solid var(--backgr-btn);
 }
-
 .vault {
   background: var(--dark-bgr);
   padding: 100px 0;
@@ -447,48 +452,4 @@ body {
 .fold {
   padding-top: 96px;
   padding-bottom: 120px;
-}
-
-/* icon */
-
-.icon {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-  padding: 16px 32px;
-}
-
-/* ==========================================
-Single-colored icons can be modified like so:
-.icon-name {
-  font-size: 32px;
-  color: red;
-}
-========================================== */
-
-.icon-group-1 {
-  width: 0.76953125em;
-}
-
-.icon-group-2 {
-  width: 1.0732421875em;
-}
-
-.icon-group-3 {
-  width: 2.048828125em;
-}
-
-.icon-group-4 {
-  width: 1.369140625em;
-}
-
-.icon-group-5 {
-  width: 2.0888671875em;
-}
-
-.icon-group {
-  width: 0.8720703125em;
 }
