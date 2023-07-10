@@ -87,6 +87,7 @@ img {
   --body-color: #434455;
   --backgr-btn: #404bbf;
   --fold-btn-color: #e7e9fc;
+  --frame-custom-color: #8e8f99;
 }
 
 body {
@@ -247,6 +248,21 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
+
+.adv-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.frame-adv-icon {
+  display: flex;
+  background-color: #f4f4fd;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  margin-bottom: 8px;
+}
+
 .ourwork {
   padding-bottom: 120px;
 }
@@ -315,6 +331,12 @@ body {
   text-align: center;
 }
 
+.empl-icon {
+  display: flex;
+  gap: 24px;
+  padding-top: 8px;
+}
+
 .custom-title {
   font-weight: 700;
   font-size: 36px;
@@ -323,6 +345,34 @@ body {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--ancillary-color);
+  padding-bottom: 72px;
+  padding-top: 120px;
+}
+
+.list-custom-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 120px;
+  gap: 24px;
+}
+
+.list-custom-cell {
+}
+
+.custom-icon {
+  fill: var(--frame-custom-color);
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
+  border: 1px solid var(--frame-custom-color);
+  padding: 16px 32px;
+}
+
+.custom-icon:hover,
+.custom-icon:focus {
+  fill: var(--backgr-btn);
+  border: 1px solid var(--backgr-btn);
 }
 
 .vault {
@@ -403,31 +453,12 @@ body {
 
 .icon {
   display: inline-block;
-  width: 1em;
-  height: 1em;
+  width: 100%;
+  height: 100%;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
-}
-
-.adv-icon {
-  width: 64px;
-  height: 64px;
-}
-
-.frame-adv-icon {
-  display: flex;
-  background-color: #f4f4fd;
-  justify-content: center;
-  align-items: center;
-  height: 112px;
-  margin-bottom: 8px;
-}
-
-.empl-icon {
-  display: flex;
-  gap: 24px;
-  padding-top: 8px;
+  padding: 16px 32px;
 }
 
 /* ==========================================
