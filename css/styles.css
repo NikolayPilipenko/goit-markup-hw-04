@@ -342,6 +342,17 @@ body {
   fill: var(--backgr-btn);
 }
 
+.empl-cell {
+  fill: #4d5ae5;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
 .custom-title {
   font-weight: 700;
   font-size: 36px;
