@@ -339,7 +339,7 @@ body {
 
 .empl-cell:hover,
 .empl-cell:focus {
-  fill: chartreuse;
+  fill: var(--backgr-btn);
 }
 
 .custom-title {
