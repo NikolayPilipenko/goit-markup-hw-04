@@ -101,6 +101,8 @@ body {
   background-color: color #e7e9fc;
   display: flex;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-header-container {
@@ -133,14 +135,13 @@ body {
   color: var(--backgr-btn);
 }
 
-/* .menu-item:hover,
-.menu-item:focus::before, */
-.menu-item:hover,
-.menu-item:focus::after {
-  width: auto;
-  height: 2px;
-  content: "";
-  background-color: var(--backgr-btn);
+.menu-link .select {
+  color: var(--backgr-btn);
+}
+
+.menu-link .select::after {
+  content: " ";
+  width: 4px;
 }
 
 .contacts {
