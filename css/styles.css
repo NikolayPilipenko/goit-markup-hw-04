@@ -138,10 +138,11 @@ body {
 .menu-link .select {
   color: var(--backgr-btn);
 }
-
-.menu-link .select::after {
+.menu-link .select:focus,
+.menu-link .select:hover::after {
   content: " ";
   width: 4px;
+  background-color: var(--backgr-btn);
 }
 
 .contacts {
@@ -342,30 +343,34 @@ body {
   text-align: center;
 }
 
-.empl-icon {
+.empl-soc-posit {
   display: flex;
   gap: 24px;
   padding-top: 8px;
-
-  flex-shrink: 0;
-  align-self: flex-end;
 }
 
-.empl-cell:hover,
-.empl-cell:focus {
-  fill: var(--backgr-btn);
-}
-
-.empl-cell {
-  fill: #4d5ae5;
+.empl-links {
   display: flex;
-  width: 40px;
-  height: 40px;
-  background-color: #ffffff;
-  border-radius: 50%;
   justify-content: center;
   align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--subsid-color);
 }
+
+.empl-links:hover,
+.empl-links:focus {
+  background-color: var(--backgr-btn);
+}
+
+.empl-icon {
+  fill: var(--log-stud-col);
+  width: 16px;
+  height: 16px;
+}
+
+/* CUSTOM */
 
 .custom-title {
   font-weight: 700;
@@ -381,22 +386,17 @@ body {
 
 .list-custom-icon {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-bottom: 120px;
   gap: 24px;
 }
 
-.list-custom-cell {
-}
-
 .custom-icon {
   fill: var(--frame-custom-color);
+  border: 1px solid var(--frame-custom-color);
+  border-radius: 4px;
+  padding: 16px 32px;
   width: 168px;
   height: 88px;
-  border-radius: 4px;
-  border: 1px solid var(--frame-custom-color);
-  padding: 16px 32px;
 }
 
 .custom-icon:hover,
@@ -404,6 +404,9 @@ body {
   fill: var(--backgr-btn);
   border: 1px solid var(--backgr-btn);
 }
+
+/* VALUT */
+
 .vault {
   background: var(--dark-bgr);
   padding: 100px 0;
