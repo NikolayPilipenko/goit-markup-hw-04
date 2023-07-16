@@ -136,6 +136,14 @@ body {
   color: var(--backgr-btn);
 }
 
+.menu-item:hover::after {
+  display: block;
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: #404bbf;
+}
+
 .contacts {
   font-style: normal;
   line-height: 1.5;
