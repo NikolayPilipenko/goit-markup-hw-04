@@ -88,6 +88,7 @@ img {
   --backgr-btn: #404bbf;
   --fold-btn-color: #e7e9fc;
   --frame-custom-color: #8e8f99;
+  --hfsoc-valut: #31d0aa;
 }
 
 body {
@@ -420,6 +421,12 @@ body {
 
 /* VALUT */
 
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 120px;
+}
+
 .vault {
   background: var(--dark-bgr);
   padding: 100px 0;
@@ -431,6 +438,41 @@ body {
   line-height: 1.5;
   color: var(--log-stud-col);
   width: 264px;
+}
+
+.vault-soc-title {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+  color: #ffffff;
+  padding-bottom: 16px;
+}
+
+.valut-soc-posit {
+  display: flex;
+  gap: 16px;
+}
+
+.valut-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--subsid-color);
+}
+
+.valut-links:hover,
+.valut-links:focus {
+  background-color: var(--hfsoc-valut);
+}
+
+.valut-icon {
+  fill: var(--log-stud-col);
+  width: 24px;
+  height: 24px;
 }
 
 /*Portfolio*/
