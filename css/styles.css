@@ -390,18 +390,31 @@ body {
   gap: 24px;
 }
 
-.custom-icon {
-  fill: var(--frame-custom-color);
-  border: 1px solid var(--frame-custom-color);
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 168px;
+.list-custom-point {
+  width: calc((100% - 120px) / 6);
   height: 88px;
 }
 
-.custom-icon:hover,
-.custom-icon:focus {
-  fill: var(--backgr-btn);
+.link-custom-point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--frame-custom-color);
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--frame-custom-color);
+  border-radius: 4px;
+}
+
+.custom-icon {
+  fill: currentColor;
+  width: 104px;
+  height: 56px;
+}
+
+.link-custom-point:hover,
+.link-custom-point:focus {
+  color: var(--backgr-btn);
   border: 1px solid var(--backgr-btn);
 }
 
