@@ -132,6 +132,7 @@ body {
   padding: 0 15px;
   display: block;
   padding: 24px 0;
+  position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-link:hover,
@@ -139,10 +140,10 @@ body {
   color: var(--backgr-btn);
 }
 
-.menu-link:hover::after,
-.menu-link:focus::after {
+.menu-item:hover,
+.menu-item:focus::after {
   display: block;
-  content: "";
+  content: " ";
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -162,15 +163,12 @@ body {
   gap: 40px;
 }
 
-.contact-item {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contact-item .contact-mt {
+.contact-mt {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--body-color);
   padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-mt:hover,
 .contact-mt:focus {
@@ -209,6 +207,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--backgr-color);
   background-color: var(--ancillary-color);
+
   padding-top: 188px;
   padding-bottom: 188px;
   background-image: linear-gradient(
@@ -356,6 +355,11 @@ body {
   display: flex;
   gap: 24px;
   padding-top: 8px;
+  justify-content: center;
+}
+
+.empl-soc-list {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .empl-links {
@@ -381,6 +385,10 @@ body {
 
 /* CUSTOM */
 
+.custom {
+  padding: 120px 0;
+}
+
 .custom-title {
   font-weight: 700;
   font-size: 36px;
@@ -389,19 +397,19 @@ body {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--ancillary-color);
-  padding-bottom: 72px;
-  padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .list-custom-icon {
   display: flex;
-  padding-bottom: 120px;
   gap: 24px;
 }
 
 .list-custom-point {
   width: calc((100% - 120px) / 6);
   height: 88px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-custom-point {
@@ -429,10 +437,15 @@ body {
 
 /* VALUT */
 
-.footer-container {
+.vault-container {
   display: flex;
   justify-content: flex-start;
   gap: 120px;
+  align-items: baseline;
+}
+
+.vault-list {
+  margin-right: 120px;
 }
 
 .vault {
@@ -449,17 +462,21 @@ body {
 }
 
 .vault-soc-title {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
-  color: #ffffff;
+  letter-spacing: 0.02em;
+  color: var(--backgr-color);
   padding-bottom: 16px;
 }
 
 .valut-soc-posit {
   display: flex;
   gap: 16px;
+}
+
+.valut-soc-list {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .valut-links {
@@ -481,6 +498,12 @@ body {
   fill: var(--log-stud-col);
   width: 24px;
   height: 24px;
+}
+
+/* modal window */
+.modal-w {
+  position: fixed;
+  top: 0;
 }
 
 /*Portfolio*/
