@@ -140,16 +140,20 @@ body {
   color: var(--backgr-btn);
 }
 
-.menu-item:hover,
-.menu-item:focus::after {
-  display: block;
-  content: " ";
+.menu-link.active {
+  color: var(--backgr-btn);
+}
+
+.menu-link.active::after {
+  content: "";
   position: absolute;
   left: 0;
   bottom: -1px;
+  display: block;
+  width: 100%;
   height: 4px;
-  background-color: var(--backgr-btn);
   border-radius: 2px;
+  background-color: var(--backgr-btn);
 }
 
 .contacts {
@@ -200,16 +204,10 @@ body {
 }
 
 .designation {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--backgr-color);
+  max-width: 1440px;
   background-color: var(--ancillary-color);
-
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
+  margin: 0 auto;
   background-image: linear-gradient(
       to bottom,
       rgba(46, 47, 66, 0.7),
@@ -219,7 +217,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
 }
 
 .designation-title {
