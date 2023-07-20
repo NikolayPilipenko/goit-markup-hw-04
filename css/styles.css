@@ -551,8 +551,9 @@ body {
 
 .close-modal-w:hover,
 .close-modal-w:focus {
+  fill: var(--backgr-color);
   bottom: none;
-  border-color: var(--backgr-btn);
+  background-color: var(--backgr-btn);
 }
 
 .modal-close-icon {
