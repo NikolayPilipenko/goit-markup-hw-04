@@ -622,6 +622,13 @@ body {
   gap: 48px 24px;
 }
 
+.all-cont-posit {
+  transition-property: overlay;
+}
+.overlay {
+  transition-property: color var(--404bbf);
+}
+
 .all-cont-link {
   display: block;
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -655,6 +662,9 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.all-cont-link:is(:hover, :focus) .img-box-txt {
+  transform: translateY(0);
+}
 .frame {
   border: 1px solid var(--fold-btn-color);
   border-top: none;
