@@ -564,6 +564,7 @@ body {
 .modal-close-icon:hover,
 .modal-close-icon:focus {
   fill: var(--backgr-color);
+  border: none;
 }
 
 /*Portfolio*/
