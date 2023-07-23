@@ -353,7 +353,7 @@ body {
 .empl-soc-posit {
   display: flex;
   gap: 24px;
-  padding-top: 8px;
+  margin-top: 8px;
   justify-content: center;
 }
 
@@ -444,7 +444,6 @@ body {
 }
 
 .vault-list {
-  margin-right: 120px;
 }
 
 .vault {
